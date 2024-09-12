@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #16a085;
+}
+
+h5 {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.cv-container p:first-of-type {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+p.skills {
+    margin-top: 10px;
+}
+
+p.skills span {
+    display: inline-block;
+    background-color: #ecf0f1;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+
+.cv-container p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+h4.education-title {
+    font-weight: bold;
+    color: #c0392b;
+}
+
+
+.cv-container h5 {
+    font-size: 16px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .cv-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

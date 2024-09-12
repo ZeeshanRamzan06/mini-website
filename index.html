@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function SignUp(){
+            window.location.href = 'signup.html';
+        }
+        function logIn(){
+            window.location.href = 'login.html';
+        }
+    </script>
+
+</head>
+<body>
+    <div class="navbar">
+        <p class="logo">LOGO</p>
+        <ul class="list-item">
+            <li> <a href="">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+
+        <div class="buttons">
+            <button onclick="SignUp()">Sign Up</button>
+            <button onclick="logIn()">LogIn </button>
+        </div>
+    </div>
+    <div class="header">
+        <h1>Welcome to Our Home Page</h1>
+        <p>We Provide digital Solutions to te Customer</p>
+    </div>
+</body>
+</html>
